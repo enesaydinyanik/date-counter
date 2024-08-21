@@ -1,0 +1,66 @@
+body {
+  font-family: sans-serif;
+  background-color: #120794 ;
+}
+
+.container{
+  width: 70%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #343a4b;
+  margin: 100px auto;
+  color: white;
+  border-radius: 25px;
+
+}
+
+input[type="date"] {
+  width: 200px;
+  height: 25px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: x-large;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1); /* Siyah arka plan üzerine görünür hale getirir */
+}
+
+.calculate-btn {
+  width: 150px;
+  height: 40px;
+  background-color: white;
+  border: none;
+  border-radius: 25px;
+  color: black;
+  font-weight: bolder;
+  font-size: x-large;
+  cursor: pointer;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.year, .month, .day, .hour, .minute, .second {
+  width: 130px;
+  height: 130px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+}
+
+
+
