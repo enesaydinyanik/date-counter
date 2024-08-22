@@ -1,3 +1,9 @@
+// Bugünün tarihini al
+const today = new Date().toISOString().split('T')[0];
+
+// Min özelliğini bugünün tarihi olarak ayarla
+document.getElementById('date').setAttribute('min', today);
+
 function countdown() {
   // Şu anki zamanı al
   var now = new Date();
@@ -48,5 +54,5 @@ function countdown() {
   // 1 saniye sonra yeniden çağır
   setTimeout(countdown, 1000);
 
-  
+
 }
