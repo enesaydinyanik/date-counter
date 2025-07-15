@@ -75,3 +75,6 @@ calculateBtn.addEventListener("click", () => {
   updateCountdown(userDate);
   timerId = setInterval(() => updateCountdown(userDate), 1000);
 });
+
+
+// yeni deneme ve test değişiklikleri
